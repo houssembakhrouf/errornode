@@ -1,0 +1,32 @@
+.register{
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  box-shadow: 0 0 2px gray;
+}
+.parregister{
+  font-size: 12px;
+}
+.cardtitle{
+  background-color: rgb(131, 199, 255);
+  border-radius: 8px;
+}
+.primary-button{
+  height: 40px;
+  width: 100% !important;
+  background-color:rgb(131, 199, 255) ;
+
+}
+.linke{
+  color: black;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.linke :hover{
+  text-decoration: underline !important;
+}
