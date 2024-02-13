@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 
 connectdb();
 app.use('/api/user', userRoute)
+app.use('/api1/user', userRoute)
 
 
 app.listen(port, (err) => {
